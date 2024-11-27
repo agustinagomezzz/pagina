@@ -1,0 +1,125 @@
+/* Main footer styles */
+.site-footer {
+    background-color: rgb(98, 98, 255);
+    color: #fff;
+    padding: 1rem 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for footer content */
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+/* Individual footer sections */
+.footer-section {
+    flex: 1 1 200px;
+    margin-bottom: 1.5rem;
+}
+
+.footer-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.footer-section p {
+    line-height: 1.6;
+}
+
+/* Quick Links styling */
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #ddd;
+    text-decoration: underline;
+}
+
+/* Social media links */
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-links a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background-color: #555;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #777;
+}
+
+.social-links i {
+    font-size: 1.2rem;
+}
+
+/* Footer bottom section */
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #555;
+    margin-bottom:  -10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        flex-basis: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+}
+
+/* Additional accessibility styles */
+.footer-section a:focus,
+.social-links a:focus {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+
+/* Improve readability on smaller screens */
+@media (max-width: 480px) {
+    .footer-section h2 {
+        font-size: 1.1rem;
+    }
+
+    .footer-section p,
+    .footer-section ul li,
+    .footer-bottom p {
+        font-size: 0.9rem;
+    }
+}

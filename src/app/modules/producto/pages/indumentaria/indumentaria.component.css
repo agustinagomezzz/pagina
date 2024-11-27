@@ -1,0 +1,92 @@
+.img{
+    height: 600px;
+    width:100%;
+    object-fit: none;
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+.card-img-top{
+    object-fit: none;
+}
+.card-img-top:hover{
+    transform: scaleX(1,1);
+    transition: 2s;
+    
+}
+.title-palos{
+    position: absolute;
+    margin-top: -240px;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+   
+}
+.desc{
+    position: absolute;
+    margin-top: -180px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.title{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    margin-bottom: 80px;
+}
+.card-img-top{
+    font-size: 20px;
+    height: 230px;
+}
+.card{
+    border-color: white;
+}
+.card:hover{
+    border-color: rgb(193, 145, 238);
+    transition: 1s;
+}
+.card button:hover{
+    background-color: rgb(193, 145, 238);
+    border-color: rgb(193, 145, 238);
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-text{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin-left: 27%;
+    border-radius: 20px;
+}
+@media(max-width: 320px){
+    .title-palos{
+        font-size: 30px;
+    }
+    .desc{
+        font-size: 12px;
+    }
+    .title{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .btn{
+        margin-left: 20%;
+    }
+    .crd{
+        margin-bottom: 50px;
+
+    }
+    .card{
+        margin-bottom: 50px;
+    }
+    .desc-prod{
+        margin-left: 20px;
+    }
+}

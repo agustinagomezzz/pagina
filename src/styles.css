@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+/*Estilos Para Modo Oscuro*/
+body{
+    transition: all 1.5 ease;
+}
+#toggle{
+    display: none;
+}
+#label_toggle{
+    position: static;
+    cursor: pointer;
+}
+.dark{
+    background-color: rgb(115, 47, 124);
+    color: white;
+    transition: all 1.5 ease;
+}
+p{
+    font-family: 'Playfair Display';
+}
+
+*{
+    color: black;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

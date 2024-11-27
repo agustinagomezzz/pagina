@@ -1,0 +1,111 @@
+.modal-footer{
+    text-align: center;
+    justify-content: center;
+}
+.modal-footer{
+    text-align: center;
+    justify-content: center;
+}
+.img-modal{
+    width: 80%;
+}
+.modal-body{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.titulo{
+    font-family: "Playfair Display", serif;
+    font-size: 0.5cm;
+}
+.modal-title{
+    font-family: "Merriweather", serif;
+    font-size: 00px;
+}
+
+.container{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+/* responsive*/
+
+/* Estilos generales de la tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .table img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  /*pantallas grandes */
+@media(min-width:600px) {
+
+
+
+
+}
+
+
+/* Pantallas chicas */
+@media (min-width: 300px) and (max-width: 500px) {
+  .table-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .table, .table thead, .table tbody, .table th, .table td, .table tr {
+    display: block;
+    width: 90%;
+    margin: 0 auto; /* Centra la tabla en pantallas pequeñas */
+  }
+
+  .table thead tr {
+    display: none; /* Oculta la cabecera en dispositivos pequeños */
+  }
+
+  .table tr {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .table td {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    text-align: center;
+    align-items: center;
+    padding: 8px 10px;
+    font-size: 14px; /* Reduce el tamaño de fuente para móviles */
+  }
+
+  .table td::before {
+    content: attr(data-label); /* Usa el atributo data-label para las etiquetas */
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0044cc;
+    margin-right: 10px;
+  }
+
+  .table img {
+    width: 80px; /* Reduce el tamaño de la imagen en pantallas pequeñas */
+  }
+}
+
+
+
+
+
